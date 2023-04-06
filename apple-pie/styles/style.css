@@ -8,12 +8,11 @@
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: inherit;
-}
+} */
 /* 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
@@ -23,7 +22,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 
 /*  Set the font */
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica;
+  font-size: 16px;
 }
 
 /* STYLES */
@@ -33,7 +33,7 @@ body {
   /* PARA O BANNER FICAR ESTENDIDO NA TELA INTEIRA */
   width: 100vw;
   height: 100vh;
-/* ../ significa entrar na pasta de cima */
+  /* ../ significa entrar na pasta de cima */
   background-image: url("../images/apple-pie.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -41,8 +41,59 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .hero-image h1 {
   color: white;
+}
+
+.section2 {
+  text-align: center;
+  width: auto;
+  height: 100px;
+  margin-bottom: 14px;
+  margin-bottom: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section2 p {
+  width: 60%;
+}
+
+.img-section img {
+  height: 60px;
+}
+
+.img-section {
+  text-align: center;
+}
+
+.all {
+  padding: 60px 100px;
+}
+
+.section3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.section3 h2 {
+margin-bottom: 20px;
+}
+
+.section3 ul {
+  margin-left: 20px;
+  list-style-type: " - ";
+}
+
+.linha {
+  border: 1px solid #9999;
+}
+
+.section3 ul {
+  margin-bottom: 40px;
 }
